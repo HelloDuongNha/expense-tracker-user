@@ -1,17 +1,35 @@
-# expense_user
+# Expense Tracker - User Application (Flutter)
 
-A new Flutter project.
+An offline-first cross-platform mobile application built with Flutter for individual financial tracking, featuring local data queuing and automated cloud synchronization.
 
-## Getting Started
+## Key Features
+* Offline-First: Uses Room DB / Local SQLite for full functionality without network.
+* Sync Queue: Caches local transactions and syncs automatically via Firebase once online.
+* Real-time Backend: Integrated with Firebase Auth, Firestore, and Realtime DB.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+* Flutter (Dart) | Firebase Ecosystem | macOS & Windows Compatibility
 
-A few resources to get you started if this is your first Flutter project:
+## Setup & Run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Clone project:
+   git clone https://github.com/HelloDuongNha/expense-tracker-user.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Install Packages & Dependencies:
+   Navigate to the project root and run the following command to download all flutter packages and libraries:
+   flutter pub get
+
+3. Firebase Configuration:
+    * For Android: Place the google-services.json file in /android/app/
+    * For iOS (macOS users only): Place the GoogleService-Info.plist file in /ios/Runner/
+
+4. Run the Application:
+   Ensure you have an active emulator or connected device.
+    * To run on Android Emulator / Physical Device (macOS & Windows):
+      flutter run -d android
+    * To run on iOS Simulator (macOS only):
+      flutter run -d ios
+
+## System Ecosystem
+Administrative and Android Native dashboard repository:
+https://github.com/HelloDuongNha/expense-tracker-admin.git
