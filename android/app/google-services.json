@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "921926425900",
+    "firebase_url": "https://project-admin-26512-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "project-admin-26512",
+    "storage_bucket": "project-admin-26512.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921926425900:android:5c8831e79eeee49f5a6089",
+        "android_client_info": {
+          "package_name": "com.example.expense_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAIz_S1__jRZyGrQ9nV9ha9iXeKszDmLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921926425900:android:a5e595ed0052eb585a6089",
+        "android_client_info": {
+          "package_name": "com.example.project_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAIz_S1__jRZyGrQ9nV9ha9iXeKszDmLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
